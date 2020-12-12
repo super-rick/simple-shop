@@ -8,6 +8,12 @@ spring:
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
-
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: utf-8
+    cache: false
 mybatis:
   mapper-locations: classpath:mapper
+
