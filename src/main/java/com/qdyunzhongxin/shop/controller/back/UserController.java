@@ -1,4 +1,4 @@
-package com.qdyunzhongxin.shop.controller;
+package com.qdyunzhongxin.shop.controller.back;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-12-05
  */
 @RestController
-@RequestMapping("/shop/role")
-public class RoleController {
+@RequestMapping("/back/shop/user")
+public class UserController {
 
 }
 

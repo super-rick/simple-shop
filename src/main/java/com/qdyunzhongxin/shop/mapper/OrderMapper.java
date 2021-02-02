@@ -1,6 +1,6 @@
 package com.qdyunzhongxin.shop.mapper;
 
-import com.qdyunzhongxin.shop.entity.Order;
+import com.qdyunzhongxin.shop.entity.Orders;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author rick
  * @since 2020-12-05
  */
-public interface OrderMapper extends BaseMapper<Order> {
+public interface OrderMapper extends BaseMapper<Orders> {
 
 }

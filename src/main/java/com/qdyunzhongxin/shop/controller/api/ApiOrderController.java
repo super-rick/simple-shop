@@ -1,4 +1,4 @@
-package com.qdyunzhongxin.shop.controller;
+package com.qdyunzhongxin.shop.controller.api;
 
 
 import com.qdyunzhongxin.shop.entity.Address;
@@ -7,7 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -23,7 +22,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/shop/address")
 @Slf4j
-public class AddressController {
+public class ApiOrderController {
 
     @Autowired
     private IAddressService addressService;

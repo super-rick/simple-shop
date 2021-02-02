@@ -1,6 +1,6 @@
 package com.qdyunzhongxin.shop.service;
 
-import com.qdyunzhongxin.shop.entity.Order;
+import com.qdyunzhongxin.shop.entity.Orders;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author rick
  * @since 2020-12-05
  */
-public interface IOrderService extends IService<Order> {
+public interface IOrderService extends IService<Orders> {
 
 }
